@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tip Tac Toe with AI</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+  </head>
+  <body>
+    <h4> by <a href="http://tinyurl.com/zm6v3z9" target="_blank">Peter Lodri</a> </h4>
+    <h1></h1>
+    <h2></h2>
+    <div id="board-container">
+        <table id="board" border="1" frame="void" rules="all">
+            <tr class="row">
+                <td id="c00"></td>
+                <td id="c01"></td>
+                <td id="c02"></td>
+            </tr>
+            <tr class="row">
+                <td id="c10"></td>
+                <td id="c11"></td>
+                <td id="c12"></td>
+            </tr>
+            <tr class="row">
+                <td id="c20"></td>
+                <td id="c21"></td>
+                <td id="c22"></td>
+            </tr>
+        </table>
+    </div>
+  <button type="button" name="button" class="newGame">New Game</button>
+  <br>
+  <button type="button" name="button" class="toggleResources">Show resources</button>
+  <div id="resources" class="hidden">
+    <p><a href="https://xkcd.com/832/" target="_blank">Complete map of moves, xkcd</a></p>
+    <p><a href="http://neverstopbuilding.com/minimax" target="_blank">Tic Tac Toe: Understanding The Minimax Algorithm</a></p>
+    <p><a href="https://blog.vivekpanyam.com/how-to-build-an-ai-that-wins-the-basics-of-minimax-search/" target="_blank">AI that wins: the basics of minimax search</a></p>
+    <p><a href="http://www.flyingmachinestudios.com/programming/minimax/" target="_blank">
+An Exhaustive Explanation of Minimax, a Staple AI Algorithm</a></p>
+    <p><a href="https://jsfiddle.net/nishacodes/2Jvtu/" target="_blank">Tic Tac Toe, JSFiddle example</a></p>
+  </div>
+  <script type="text/javascript" src="localStorageHandler.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
